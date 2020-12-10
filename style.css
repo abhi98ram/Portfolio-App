@@ -1,0 +1,828 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********************-For All Pages*************************/
+body{
+	background: radial-gradient(#fff,#cce0ff);
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+}
+
+label.logo{
+	color:white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	
+}
+
+ul{
+	list-style:none;
+	padding:0;
+	margin: 0;
+	text-decoration: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+	background: #0074d9;
+	}
+
+	
+	nav ul{
+		float: right;
+		margin-right: 40px;
+	
+	}
+	nav li{
+		display: inline-block;
+		margin: 0 8px;
+		line-height: 80px;
+	
+	}
+	nav a{
+		color: white;
+		font-size: 18px;
+		/**text-transform: uppercase;**/
+		border:1px solid transparent;
+		padding:7px 10px;
+		border-radius: 3px;
+	}
+	
+	a.active,a:hover{
+	   border:1px solid white;
+	}
+
+	.model{
+		height:300px;
+		position:absolute;
+		bottom:30px;
+		left:80%;
+		transform: translateX(-75%);
+		width: 200;
+		top: 100px;
+	}
+
+	/*****************-Top left text index.html*****************/
+    .text-container{
+		position: absolute;
+		left:13%;
+		top:42%;
+		transform:translate(-13%,-42%);
+	}
+
+	.text-container p{
+		margin:45px 0px 25px;
+		line-height:0px;
+	}
+
+	.text-container p:nth-child(1){
+		font-weight:bold;
+		color:#6d6d6d;
+		font-size:22px;
+		top: 1rem;
+	}
+
+	.text-container p:nth-child(2){
+		font-weight:bold;
+		letter-spacing:1px;
+		color:black;
+		font-size:40px;
+		
+	}
+
+	.text-container p:nth-child(3){
+		color: black;
+		font-size:30px;
+		line-height:30px;
+	}
+	
+	
+	
+/*****************-About Container index.html****************/
+
+	.about-container{
+		width:80%;
+		height:330px;
+		background:#ffffff;
+		border-radius:20px;
+		box-shadow:12px 12px 12px 12px #0074d9;
+		display: flex;
+		margin: -7%  auto 20px auto;
+		position: relative;
+		justify-content:space-evenly;
+		align-items: center;
+		margin-top: 25rem;
+		margin-bottom: 6rem;
+	}
+	.about-container img{
+		height:250px;
+		padding-left: 1rem;
+	}
+	.about-text{
+		width:500px;
+		padding-left: 1rem;
+	} 
+	.about-text p:nth-child(1){
+		color:black;
+		font-weight:bold;
+		font-size:23px;
+		line-height:10px;
+	}
+	.about-text p:nth-child(2){
+		color:black;
+		font-size:15px;
+		font-weight:bold;
+		line-height:5px;
+	}
+	.about-text p:nth-child(3),.about-text p:nth-child(4){
+		color:black;
+		font-size:16px;
+	}
+
+	/********************-Boxes index.html*********************/
+    .heading{
+		font-size: 2rem;
+		text-align: center;
+		color: black;
+		
+	}
+	.box-container{
+		display:flex;
+		justify-content:space-evenly;
+		top:1rem;
+	}
+   
+	.box-1,.box-2{
+		width: 300px;
+		height:320px;
+		box-shadow:20px 10px 10px 10px  #0074d9;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		margin:0px 4px;
+		border-radius: bold;
+		background-color:white;
+	}
+	
+.box-1{
+	margin-left: 3rem;
+}
+
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2)
+{
+	color:#FFFFFF;
+	font-size: 23px;
+	line-height:0px;
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3)
+{
+	color:white;
+	text-align:center;
+	width: 230px;
+	margin:0px 0px 20px 0px;
+}
+
+.box-container .box-1-button{
+	text-decoration: none;
+	color:white;
+	background-color: #0074d9;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+
+}
+
+.box-container .box-1-button:hover{
+	text-decoration: none;
+	color:#0074d9;
+	background-color:white ;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	box-shadow: 10px 10px 10px 10px #888888;
+
+}
+
+/***********************Projects html****************************/
+/************************     Grid   ****************************/
+
+
+.content{
+	display:grid;
+	grid-template-columns:repeat(4,10fr);
+	grid-auto-rows:minmax(150px,auto);
+	grid-column-gap: 15px;
+	grid-row-gap: 30px;
+	max-width:1800px;
+	margin:0 auto;
+	justify-content: center;
+	margin-left: 2rem;	
+	margin-right: 2rem;	
+ }
+
+ .content div{
+	 background:white;
+	 box-shadow: 10px 10px 10px 10px  #0074d9;
+ }
+
+.one,.two,.three,.four,.five,.six,.seven,.eight{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/********   Projects    Blogs  ****************************/
+/********       Top Left Text   ****************************/
+
+.text-container-2{
+	position: absolute;
+	left:13%;
+	top:32%;
+	transform:translate(-13%,-42%);
+}
+
+.text-container-2 p{
+	margin:45px 0px 25px;
+	line-height:0px;
+}
+
+.text-container-2 p:nth-child(1){
+	color:black;
+	font-size:20px;
+	top: 1rem;
+}
+
+.text-container-2 p:nth-child(2){
+	letter-spacing:1px;
+	color:black;
+	font-size:20px;
+}
+
+.text-container-2 p:nth-child(3){
+	letter-spacing: 1px;
+	color: black;
+	font-size:20px;
+	/**line-height:30px;**/
+}
+
+.text-container-2 p:nth-child(4){
+	color: black;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+
+.text-container-2 p:nth-child(5){
+	color: black;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+
+
+
+/********   Projects    Blogs      ****************************/
+/********      Buttons    *************************************/
+
+
+
+.project-1-Learn,.project-2-Learn{
+	text-decoration: none;
+	color:white;
+	background-color: #0074d9;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1.2rem;
+	margin-bottom: 3rem;
+}
+
+
+.project-1-sourcecode,.project-2-sourcecode{
+	text-decoration: none;
+	color:white;
+	background-color:#0074d9;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	/**border-color:#0074d9 ;	**/
+}
+
+.project-1-Learn:hover,.project-2-Learn:hover{
+	text-decoration: none;
+	color:#0074d9;
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1.2rem; 
+	margin-bottom: 3rem;
+	box-shadow: 10px 10px 10px 10px #888888;
+}
+
+
+.project-1-sourcecode:hover,.project-2-sourcecode:hover{
+	text-decoration: none;
+	color:#0074d9;
+	background-color:white;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	box-shadow: 10px 10px 10px 10px #888888;
+	
+}
+
+
+/******************************Bloga  html********************/
+section{
+	width:100%;
+	height:95vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+
+.b-content{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-auto-rows:minmax(200px,200px);
+	grid-column-gap: 50px;
+	max-width:800px;
+	margin-left: 18rem;	
+}
+
+
+.b-content div{
+	background:white;
+	box-shadow: 20px 10px 10px 10px  #0074d9;
+	padding:10px;
+	margin-left:1rem;
+	margin-right:1rem;
+}
+
+.b-one,.b-two{
+   text-align: center;
+   font-weight: bold;
+}
+
+
+
+
+/***************** Footer for all Pages***********************/
+
+footer{
+	height:170px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top:10rem;
+	background-color: #0074d9;
+}
+
+footer p{
+	font-size: 20px;
+	font-weight:bold;
+	color:white;
+	line-height:10px;
+}
+
+
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+	border-radius:50%;
+}
+
+.social-icons{
+	display: flex;	
+}
+
+.social-icons i,.social i{
+      color: black;
+}
+
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+ 
+.social{
+	position: fixed;
+	top:50%;
+	left:0px;
+	transform:translateY(-50%);
+}
+
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.social a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;
+}
+
+
+.social i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+/***************** Sticky bar for all Pages******************/
+.social-2{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+
+.social-2 a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:40px; /** changed from 50 to 40 **/
+	height:40px; /** changed from 50 to 40 **/
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border-radius: 50%;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 2px 2px rgba(0,0,0,0.2);
+	
+}
+
+.social-2 a:hover{
+	background-color:#0074d9;
+	transition:all ease 0.5s;
+	border-radius: 50%;
+	width:40px; /** changed from 50 to 40 **/
+	height:40px; /** changed from 50 to 40 **/
+}
+
+.social-2 i{
+	font-size:8px;
+	color:black;
+	font-weight: bold;
+}
+
+
+.social-2 i:hover{
+	font-size:10px;
+	color:white;
+	font-weight: bold;
+}
+
+/**************** Media Query Upto 1000px*****************/
+
+@media(max-width:1000px){
+	*{
+		box-sizing: border-box;
+	}
+	label.logo{
+		font-size: 32px;
+		padding-left: 60px;
+	}
+	nav ul{
+		margin-right: 20px;
+	}
+	nav a{
+		font-size: 17px;
+	}
+	.model{
+		height: 460px;
+		left: 90%;
+		transform: translateX(-90%);
+	}
+	.text-container-2{
+		top:46%;
+	}
+	.text-container{
+		top:46%;
+	}
+	
+	.about-container{
+		width:90%;
+		border-radius: 10px;
+	}
+	.about-container img{
+		height: 200px;
+	}
+	.about-text{
+		width: 400px;
+	}
+	.about-text p:nth-child(1){
+		font-size: 20px;
+	}
+	.about-text p:nth-child(2){
+		font-size: 10px;
+	}
+	
+	.about-text p:nth-child(3),
+	.about-text p:nth-child(4){
+		font-size: 14px;
+	}
+	
+	.box-container{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.box-1,.box-2,.box-3{
+		flex-grow: 1;
+		margin: 10px;
+	}
+	
+	
+}
+
+/*************** Media Query Upto 858px*********************/
+
+
+@media(max-width:858px){
+
+/****************** MQ 858 For all****************************/
+/****************** MQ 858 Nav bar****************************/
+
+
+nav .logo{
+	font-size:20px ;
+	font-weight: bold;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ebeef4;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+
+	
+}
+nav ul li{
+	padding: 10px;
+	
+}
+nav ul li a{
+	font-size: 6px;
+	color:#5c5c5c;
+	
+	
+}
+nav ul li a:hover{
+	color:#121212;
+}
+
+nav.active ul{
+	display: flex ;
+}
+	nav #icon{
+		display: block;
+	}
+
+	
+
+	nav li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+
+	}
+	nav a {
+		font-size: 20px;
+	}
+	a.active,a:hover{
+		border:none;
+		color:#0074d9;
+	}
+	nav ul.show{
+      left: 0;
+	}
+	
+	.model{
+		margin:auto;
+		max-width: 300px;
+		display:block;
+		max-height: fit-content;
+		padding-right: 2.5rem;
+		padding-top: 7rem;		
+	}
+
+	.social-2{
+		position: fixed;
+		top:50%;
+		right:0px;
+		transform:translateY(-190%);
+	}
+	
+/***************** MQ 858 index**************************/
+.text-container{
+	top: 30%;
+	left: 40%;
+	/**left: 10;**/
+	transform: translate(-50%,-50%);
+	width: 80%;
+	padding-left: 1.5rem;
+}
+
+.text-container p:nth-child(2){
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px;
+	font-size:25px ;
+}
+.text-container p:nth-child(3){
+	line-height: 30px;
+	margin: 0px;
+	padding: 0px;
+	font-size:20px ;
+	
+}
+
+.about-container{
+	top: 30px;
+	flex-direction: column;
+	width:90%;
+	height: auto;
+	padding: 40px 0px;
+	align-items: center;	
+}
+
+.about-text{
+	width:90%;
+	text-align: center;
+	}
+
+.box-1,.box-2{
+		margin-left: 1rem;
+	}
+/************* MQ 858 Projects Blogs ********************/
+
+.text-container-2{
+	top: 25%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	padding-left: 1.5rem;
+}
+
+.text-container-2 p:nth-child(1){
+	color:black;
+	font-size:	14px;
+	margin-top: 6rem;
+	}
+
+.text-container-2 p:nth-child(2){
+	line-height: 10px;
+	margin: 0px;
+	padding: 0px;
+	font-size:14px ;
+}
+
+.text-container-2 p:nth-child(3){
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+	font-size:14px ;
+}
+
+.text-container-2 p:nth-child(4){
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-size:14px ;
+}
+
+.text-container-2 p:nth-child(5){
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px;
+	font-size:14px ;
+}
+
+
+
+.heading{
+	font-size: 2rem;
+	text-align: center;
+	
+}
+.content{
+	display:grid;
+	grid-template-columns:repeat(2,10fr);
+	grid-auto-rows:minmax(150px,auto);
+	grid-column-gap: 10px;
+	grid-row-gap: 25px;
+	max-width:1500px;
+	margin:0 auto;
+	justify-content: start;
+	margin-left:1rem;
+	margin-right:1rem;
+ }
+
+ .b-content{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-auto-rows:minmax(200px,200px);
+	grid-gap:10px;
+	max-width:800px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;	
+}
+
+.b-content div{
+	background:white;
+	box-shadow: 10px 10px 10px 10px  #888888;
+	padding:19px
+}
+
+.b-one,.b-twoe{
+   text-align: center;
+   font-weight: bold;
+}
+
+.project-1-Learn:hover,.project-2-Learn:hover{
+	text-decoration: none;
+	color:#0074d9;
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1.2rem; 
+	margin-bottom: 3rem;
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.project-1-sourcecode:hover,.project-2-sourcecode:hover{
+	text-decoration: none;
+	color:#0074d9;
+	background-color:white;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	box-shadow: 5px 5px 5px 5px #888888;
+	
+}
+ 
+	
+/************  MQ 858 Blogs   ************************/	
+section{
+	background-image:none;
+	background-color:#f7f7f7;
+
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+
+.b-content div{
+	background:white;
+	box-shadow: 20px 10px 10px 10px  #0074d9;
+	padding:10px;
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+}
+	
+}
+
+
+/*************   Media Query 2000px *************************/
+@media(max-width:2000){ 
+
+	.about-container img{
+		padding-left: 2rem;
+	}
+	.about-container .about-text{
+		padding-left: 4rem;
+	}
+}
