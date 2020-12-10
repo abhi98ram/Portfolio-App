@@ -485,7 +485,7 @@ footer p{
 }
 
 .social-2 i{
-	font-size:8px;
+	font-size:10px;
 	color:black;
 	font-weight: bold;
 }
@@ -645,6 +645,18 @@ nav.active ul{
 		top:50%;
 		right:0px;
 		transform:translateY(-190%);
+	}
+
+	.social-2 i:hover{
+		font-size:12px;
+		color:white;
+		font-weight: bold;
+	}
+
+	.social-2 i{
+		font-size:12px;
+		color:black;
+		font-weight: bold;
 	}
 	
 /***************** MQ 858 index**************************/
